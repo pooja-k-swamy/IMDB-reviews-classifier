@@ -13,7 +13,7 @@
 
 This repository provides an example of a simple FastAPI wrapper around a Scikit-learn model that is containerized and served with Docker. Below is a quick overview of the repository's contents:
 * `app/`: Directory for our [FastAPI](https://fastapi.tiangolo.com/) application
-* `model/`: Contains the training script and pickle files for Logistic regression classifier and feature extraction using TF-IDF vectorizer
+* `model/`: Contains the training script and pickle files for Logistic regression classifier and feature extraction using TF-IDF vectorizer. Please download the dataset [here]([https://docs.python.org/3/tutorial/venv.html](https://huggingface.co/datasets/nocode-ai/imdb-movie-reviews/blob/main/IMDB%20Dataset.csv)
 * `Dockerfile`: File we will use to build a Docker container image to deploy our FastAPI application
 * `requirements.txt`: Python packages required to run the FastAPI app  
 
